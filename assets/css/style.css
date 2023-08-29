@@ -370,3 +370,77 @@
     border:none;
     border-bottom: 1px solid black;
 }
+/*--------footer-----------*/
+.footer{
+
+}
+.footer .container ul{
+    margin: 0;
+    padding: 0;
+}
+.footer .container li{
+    text-decoration: none;
+    list-style: none;
+    list-style-position:outside ;
+    margin-block-start: none ;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.footer .container .title-top{
+    font-size: 28px;
+    padding-bottom: 22px;
+    line-height: normal;
+    font-weight: 500;
+}
+.footer .container .left-footer{
+   
+
+  
+}
+.footer .container .left-footer li{
+    line-height: normal; 
+
+}
+
+.footer .container .left-footer .icon i{
+    padding-right: 36px;
+
+}
+.footer .container .title{
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 22px;
+    font-weight: 500;
+}
+
+
+/*------bottom-foote------------------*/
+.bottom-footer{
+    background-color: #1E2832;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.bottom-footer .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bottom-footer .container .bank{
+    width: 283px;
+    height: 24px;
+}
+.bottom-footer .container .year{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.bottom-footer .container .head-back{
+    color:#FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
