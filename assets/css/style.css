@@ -667,7 +667,10 @@ a{
     font-size: 16px;
 }
 
-.access .shop  i:hover{
+.access .shop:hover i{
+    color: red;
+}
+.access .shop:hover span{
     color: red;
 }
 
