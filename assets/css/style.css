@@ -787,7 +787,7 @@ a{
     font-size: 28px;
     padding-bottom: 22px;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
 .footer .container .left-footer li{
     line-height: normal; 
@@ -800,7 +800,7 @@ a{
     font-size: 16px;
     line-height: normal;
     padding-bottom: 22px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .footer .footer-menu{
     width: 200px;
