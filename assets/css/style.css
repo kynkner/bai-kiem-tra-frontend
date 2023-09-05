@@ -702,6 +702,7 @@ a{
     border-bottom: 2px solid black;
     background-color: #F4F4F5;
     margin-left: 20px;
+    color:#1E2832;
 }
 .newsletter-intagram .information button:hover{
     color: red;
