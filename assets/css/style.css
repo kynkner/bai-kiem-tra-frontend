@@ -68,7 +68,9 @@ a{
     list-style: none;
     background-color: #F4F4F5;
 }
-
+.gird-products li a:hover{
+    color: red;
+}
 .top-main .acc .shoping{
     padding-left: 22px;
 }
@@ -140,8 +142,13 @@ a{
     width: 223px;
     height: 72px;
     background-color: #1E2832;
-    
 }
+.top-main .box .collections .shop:hover{
+    background-color: red;
+    width: 223px;
+    height: 72px;
+}
+
 .top-main .box .collections .shop i{
     font-size: 24px;
     color: var(--white, #FFF);
@@ -300,12 +307,9 @@ a{
 .card-products .access span{
     color: #FFF;
 }
-
-
 .card-products  .access{
     background-color: #1E2832;
     width: 100%;
-  
     position:absolute;
     top: 71%;
     right: 0;
@@ -316,21 +320,25 @@ a{
     padding: 15px 14px;
     display: none;
 }
-.card-products  .access i, span{
-    font-size: 18px;
-}
+
 .card-products  .access .search i{
     padding-left: 6px;
+    font-size: 19px;
+}
+.card-products  .access .shop i{
+    padding-left: 6px;
+    font-size: 19px;
 }
 .card-products  .access .shop span{
+    font-size: 18px;
     padding-left: 6px;
 }
 .card-products a:hover .access{
     display: block;
     display: flex;
     justify-content: space-between;
+  
 }
-
 /*-------------gird-products---------------*/
 .gird-products{
     margin-top: 104px;
@@ -357,6 +365,21 @@ a{
     height: 32px;
     background-color: #1E2832;
     color: #FFF;
+}
+.gird-products button:hover{
+    width: 92px;
+    height: 32px;
+    background-color: red;
+    border:none;
+}
+.slider-products button:hover{
+    width: 92px;
+    height: 32px;
+    background-color: red;
+    border:none;
+}
+.slider-products li a:hover{
+    color: red;
 }
 
 /*----top-section-products-------*/
@@ -434,10 +457,12 @@ a{
 .card-products .text2 .t1{
     font-weight: normal;
     text-decoration-line: line-through;
+    font-size: 16px;
 }
 .card-products .text2 .t2{
     color: red;
     padding-left: 10px;
+    font-size: 16px;
 }
 
 
@@ -624,7 +649,6 @@ a{
     padding-bottom: 17px;
     padding-left: 10px;
     font-size: 16px;
-    
 }
 .newsletter-intagram .information button{
     width: 91px;
@@ -634,11 +658,22 @@ a{
     background-color: #F4F4F5;
     margin-left: 20px;
 }
+.newsletter-intagram .information button:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
 .newsletter-intagram .information  span{
     padding: 10px;
     font-size: 16px;
 }
 
+.access .shop  i:hover{
+    color: red;
+}
+
+.access .shop i{
+    color: #FFF;
+}
 .newsletter-intagram .card-new .ins{
     width: 200px;
     height: 200px;
