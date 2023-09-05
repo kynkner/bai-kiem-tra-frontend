@@ -841,4 +841,5 @@ a{
 .bottom-footer .head-back button{
     background-color: #1E2832;
     border: none;
+    width: auto;
 }
