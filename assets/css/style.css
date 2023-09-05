@@ -41,7 +41,9 @@ a{
     border-bottom: 1px solid #d4d3d3;   
     padding-bottom: 19px;
 }
-
+.top-main .menu  li a{
+    font-weight: 400;
+}
 
 .top-main .seach{
     display: flex;
