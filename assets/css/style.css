@@ -11,7 +11,11 @@
 .container{
     max-width: 1320px; 
 }
-
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #1E2832;
+}
 /* Header*/
 
 .top-main .container .header-main{
@@ -144,11 +148,7 @@
     padding: 0px 8px;
     text-align: center;
 }
-.b2s:hover .b3s{
-    background-color: red;
-    width: 100%;
-    height: 100%;
-}
+
 
 .top-main .box .collections .shop span{
     font-size: 29px;
@@ -259,9 +259,78 @@
     text-transform:uppercase;
     font-size: 34px;
     transform: rotate(180deg);
-    font-weight: 500;   
+    font-weight: 600;   
     font-family: 'Roboto', sans-serif;
 }
+.carrd .card2 .sale{
+    width: 52px;
+    background-color: #1E2832;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 12px;
+    position: absolute;
+    top: 22px;
+}
+
+.cate1 .bottom-category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E2832;
+    color: #FFF;
+    padding: 15px 14px;
+    border: 1px solid #1E2832;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.card1 a:hover .bottom-category{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.card2 a:hover .bottom-category{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.card-products .access span{
+    color: #FFF;
+}
+
+
+.card-products  .access{
+    background-color: #1E2832;
+    width: 100%;
+  
+    position:absolute;
+    top: 71%;
+    right: 0;
+    border: 1px solid #1E2832 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 14px;
+    display: none;
+}
+.card-products  .access i, span{
+    font-size: 18px;
+}
+.card-products  .access .search i{
+    padding-left: 6px;
+}
+.card-products  .access .shop span{
+    padding-left: 6px;
+}
+.card-products a:hover .access{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
 /*-------------gird-products---------------*/
 .gird-products{
     margin-top: 104px;
@@ -322,13 +391,53 @@
 .gird-products .card-products .card-1{
     width: 321px;
     margin-bottom: 24px;
-   
+    position: relative;
 }
 .gird-products .card-products .card-1 img{
     width: 321px;
     height: 400px;
     object-fit: cover;
     margin-bottom: 18px;
+}
+.card-products .sale{
+    width: 52px;
+    background-color: #1E2832;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 12px;
+    position: absolute;
+    top: 18px;
+  
+}
+.card-products .card-1{
+    position: relative;
+}
+.card-products .hot{
+    width: 52px;
+    background-color: #FF6F61;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 12px;
+    position: absolute;
+    top: 18px;
+}
+.card-products .text2{
+    font-weight: 600;
+    
+}
+.card-products .text2 .t1{
+    font-weight: normal;
+    text-decoration-line: line-through;
+}
+.card-products .text2 .t2{
+    color: red;
+    padding-left: 10px;
 }
 
 
@@ -529,6 +638,31 @@
     padding: 10px;
     font-size: 16px;
 }
+
+.newsletter-intagram .card-new .ins{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.50);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:0;
+    display: none;
+}
+.newsletter-intagram a:hover .ins{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.newsletter-intagram .card-new .ins i{
+    font-size: 48px;
+    margin: auto;
+}
+.newsletter-intagram .card-new .col-md-2{
+    position: relative;
+}
+
+
 /*--------footer-----------*/
 .footer{
     margin-top: 82px;
