@@ -35,7 +35,7 @@ a{
 
 /* Header*/
 .top-main .box{
-    margin-top: 135px;
+    padding-top: 162px;
 }
 .top-main .container .header-main{
     border-bottom: 1px solid #d4d3d3;   
@@ -78,6 +78,9 @@ a{
 }
 .top-main .menu a{
     font-weight: 400;
+}
+.top-main .menu ul{
+    margin-bottom: 0;
 }
 .b2s{
     border: none;
