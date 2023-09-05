@@ -189,6 +189,31 @@ a{
     object-fit: cover;
 }
 
+/*--------------------frame-------------------------*/
+
+.frame{
+    width: 1920px;
+    position: absolute;
+    background-color: aqua;
+    top: 410px;
+}
+.frame-main{
+    position: relative;
+}
+.frame-1 img{
+    width: 162px;
+    height: 120px;
+    position: absolute;
+    top: 210px;
+    left: -22px;
+    transform: rotate(-30deg);
+}
+.frame-2 img{
+    width: 190px;
+    height: 261px;
+    right:  0;
+    position: absolute;
+}
 /* Brand*/
 .brand{
     margin-top: 90px;
